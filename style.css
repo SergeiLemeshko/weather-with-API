@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.wrapper {
+	height: 100vh;
+	max-width: 1500px;
+	position: relative;
+}
+.container {
+	width: 500px;
+
+}
+.block__weather {
+	text-align: center;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 180px;
+	width: 250px;
+	height: 200px;
+	border: 1px solid rgb(161, 222, 250);
+	border-radius: 4px; 
+}
+.city-name {
+	margin-top: 30px;
+	font-size: 1.6rem;
+	color: #07969b;
+}
+.temperature {
+	margin-top: 20px;
+	font-size: 1.2rem;
+	color: #07969b;
+}
+.wind {
+	margin-top: 20px;
+	font-size: 1.2rem;
+	color: #07969b;
+}
+.button {
+	text-align: center;
+	position: absolute;
+	margin-top: 330px;
+	margin-left: 260px;
+	width: 100px;
+	height: 38px;
+	border-radius: 5px;
+	background-color: #07969b;
+	cursor: pointer;
+	box-shadow: 0 3px 0 #0b4252;
+	transition: background-color 0.5s ease 0s;
+	padding-top: 20px;
+}
+.button:hover {
+	background-color:#1e6074;
+}
+
+.button:active {
+	top: 2px;
+	box-shadow: 0 2px 0 #096b86;
+}
+.button span {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
